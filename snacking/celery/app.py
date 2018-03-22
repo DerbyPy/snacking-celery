@@ -16,4 +16,4 @@ def apply_config(celery_app, queue_name='snacking'):
     celery_app.conf.update(create_config(queue_name))
 
 
-app = Celery(__name__, )
+app = Celery(__name__)
