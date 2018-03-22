@@ -64,4 +64,5 @@ Tutorial
     * 8
     * queue: snacking
 
+* sudo rabbitmqctl list_queues
 * Flower?
