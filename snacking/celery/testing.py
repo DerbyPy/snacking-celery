@@ -47,7 +47,7 @@ class TaskTracker:
     def wait_for(self, dotted_task, throw_failure=True, reset_after=True):
         try:
             while dotted_task not in self.task_results:
-                assert self.slept <= 40, 'waited too long for task to complete'
+                assert self.slept <= 100, 'waited too long for task to complete'
                 time.sleep(.05)
                 self.slept += 1
 
