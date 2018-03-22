@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pipenv run celery -A snacking.celery.tasks worker --loglevel=info --purge

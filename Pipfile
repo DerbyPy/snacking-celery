@@ -1,0 +1,27 @@
+[[source]]
+
+verify_ssl = true
+url = "https://pypi.python.org/simple"
+name = "pypi"
+
+
+[requires]
+
+python_version = "3.6"
+
+
+[dev-packages]
+
+restview = "*"
+"flake8" = "*"
+tox = "*"
+"e1839a8" = {path = ".", editable = true}
+pytest = "*"
+mock = "*"
+
+
+[packages]
+
+click = "*"
+celery = "*"
+flower = "*"
