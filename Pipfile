@@ -18,10 +18,10 @@ tox = "*"
 "e1839a8" = {path = ".", editable = true}
 pytest = "*"
 mock = "*"
+flower = "*"
 
 
 [packages]
 
 click = "*"
 celery = "*"
-flower = "*"
